@@ -1,0 +1,121 @@
+/* nejsme vcerejsi, pouzivame moderni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+	BARVY
+	sede pozadi      #e5e5e5
+	svetle fialova   #48418e
+	tmave fialova    #25133d
+
+	POUZITE PISMO
+	Source Sans Pro - rezy pisma light 300, regular 400 a bold 700
+	https://fonts.google.com/specimen/Roboto
+	Písmo už je v HTML nalinkované a v CSS nastavené pro body.
+*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #e5e5e5;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.wrapper {
+	/* obsah stránky je omezený do pruhu širokého 960px */
+	width: 960px;
+
+	/* pruh je na stránce vycentrovaný */
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+
+}
+
+header {
+	display: flex;
+	justify-content:space-between;
+}
+ul {
+	
+	
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	display: inline-flex;
+	text-align: center;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	flex-basis: content;
+}
+
+.banner {
+	background: url("images/pozadi.jpg");
+	min-height: 450px; 
+	color: white;
+	padding-left: 15px;
+}
+
+h1 {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 90px;
+	font-weight:400;
+	
+}
+
+.banner p {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	
+
+}
+.banner img {
+	position: absolute;
+	top: 106px;
+	right: 115px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}	
+
+section {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-around;
+	
+}
+
+section img {
+	padding: 10px;
+	width: 100px;
+	align-self: center;
+}
+
+
+footer {
+	text-align: center;
+	background-color: #48418e;
+	color: white;
+	font-family: "Source Sans Pro", sans serif;
+	font-size: 12px;
+}
+
+/* ----- zde začni psát vlastní CSS ----- */
