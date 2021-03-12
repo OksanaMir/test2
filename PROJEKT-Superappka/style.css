@@ -52,15 +52,15 @@ header ul {
 header a {
 	text-decoration: none;
 	color: black;
-	padding: 20px 16px 20px 16px; 
+	padding: 16px 40px 16px 40px; 
 }
 
 .list1 {
-	padding: 20px 16px 20px 16px;
-	font-weight: bolder;
+	padding: 16px 40px 16px 40px;
+	font-weight: 600;
 }
 
-header li :hover {
+header a:hover {
 	background-color: #48418e;
 	color: white;
 }
@@ -82,7 +82,7 @@ header li {
 	background: url("images/pozadi.jpg");
 	min-height: 450px; 
 	color: white;
-	padding-left: 20px;
+	padding-left: 40px;
 }
 
 .banner a {
@@ -90,21 +90,23 @@ header li {
 	text-decoration: none;
 	font-size: 20px;
 	padding: 15px 25px 15px 25px;
-	margin: 10px;
+	margin: 10px 20px 30px 0px;
 	border: 1px solid white;
 	border-radius: 8px;
 }
 
-.banner a :hover {
-	background-color: #25133d;
+.banner a:hover {
+	background-color: #2c1946;
 	font-weight: 400px;
 	
 }
 
-h1 {
+.banner h1 {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 90px;
 	font-weight:400;
+	margin: 30px 0px 30px 0px;
+	padding: 0px;
 	
 }
 
@@ -112,12 +114,14 @@ h1 {
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 36px;
 	font-weight: 300;
+	padding: 0;
+	margin: 25px 0px 55px 0px;
 }
 
 .banner img {
 	position: absolute;
 	top: 106px;
-	right: 115px;
+	right: 237px;
 }
 
 .content {
