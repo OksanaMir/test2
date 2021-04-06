@@ -83,6 +83,7 @@ header li {
 	min-height: 450px; 
 	color: white;
 	padding-left: 40px;
+	position: relative;
 }
 
 .banner a {
@@ -120,8 +121,8 @@ header li {
 
 .banner img {
 	position: absolute;
-	top: 106px;
-	right: 237px;
+	bottom: 0px;
+	right: 0px;
 }
 
 .content {
